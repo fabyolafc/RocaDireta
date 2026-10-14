@@ -1,0 +1,14 @@
+// Schema Prisma do RoçaDireta.
+// Etapa 1 (Fundação): apenas datasource e generator configurados.
+// Os models (User, Product, Order, etc.) serão adicionados na Etapa 2 — Banco de dados.
+//
+// A partir do Prisma 7, a URL de conexão não fica mais no schema: ela é
+// definida em `prisma.config.ts` (lido a partir de DATABASE_URL no .env).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}

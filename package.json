@@ -1,0 +1,28 @@
+{
+  "name": "rocadireta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RoçaDireta — Do produtor para quem compra.",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:api": "npm run dev -w api",
+    "build:web": "npm run build -w web",
+    "build:api": "npm run build -w api",
+    "lint:web": "npm run lint -w web",
+    "typecheck:api": "npm run typecheck -w api",
+    "db:generate": "prisma generate",
+    "db:validate": "prisma validate",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.10.0"
+  }
+}

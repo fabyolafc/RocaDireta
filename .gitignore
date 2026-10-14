@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Ambiente
+.env
+.env.*.local
+!.env.example
+
+# Prisma
+prisma/generated/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editores e sistema operacional
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testes e cobertura
+coverage/
