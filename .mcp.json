@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "rocadireta": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:/Users/User/OneDrive/Portfolio/My-portfolio/rocaDireta/meu-mcp-server/src/index.js"
+      ],
+      "env": {}
+    }
+  }
+}
